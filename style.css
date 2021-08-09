@@ -90,7 +90,7 @@ body {
   margin-top: 15px;
   padding: 15px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   body {
     max-width: 80%;
     max-height: 80%;
