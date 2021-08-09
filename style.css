@@ -90,11 +90,4 @@ body {
   margin-top: 15px;
   padding: 15px;
 }
-@media only screen and (max-width: 900px) {
-  .section,
-  .img {
-    max-width: 80%;
-    max-width: 80%;
-  }
-}
 
