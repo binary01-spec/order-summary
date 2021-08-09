@@ -1,0 +1,92 @@
+body {
+  align-items: center;
+  background: url(./images/pattern-background-desktop.svg) no-repeat top;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+.heading,
+.description,
+.payment,
+.cancel {
+  text-align: center;
+}
+
+.section {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0 20px 20px;
+  padding: 40px 50px;
+}
+
+.img {
+  border-radius: 20px 20px 0 0;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 900;
+}
+.description {
+  color: hsl(224, 23%, 55%);
+  padding: 0 20px 0 20px;
+}
+
+.plan {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.plan-duration {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0;
+}
+.price {
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+}
+.change-plan {
+  font-weight: bolder;
+}
+
+.payment {
+  padding: 10px 0 10px 0;
+}
+
+.payment-btn {
+  border: 0;
+  border-radius: 0.7rem;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 1rem 1rem hsla(244, 82%, 66%, 25%);
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 12px;
+}
+:hover.payment-btn {
+  background-color: #fff;
+  box-shadow: 0 1rem 1rem hsl(225, 100%, 98%);
+  color: hsl(245, 75%, 52%);
+}
+
+.cancel-btn {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  color: gray;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 15px;
+  padding: 15px;
+}
